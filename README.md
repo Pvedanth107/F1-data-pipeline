@@ -1,15 +1,19 @@
-Project: F1 Data Pipeline
+## 🚀 F1 Data Pipeline Project
 
-Description:
-This project builds a simple ETL pipeline using Python.
+### 📌 Description
+This project builds an end-to-end ETL pipeline using Python to process Formula 1 datasets.
 
-Steps:
-1. Extract Formula 1 driver data from CSV files.
-2. Transform the data by cleaning missing values.
-3. Load the cleaned data into a new CSV file.
+### ⚙️ Tools Used
+- Python
+- Pandas
+- VS Code
+- Kaggle Dataset
 
-Tools Used:
-Python
-Pandas
-VS Code
-Kaggle Dataset
+### 🔄 Pipeline Steps
+1. Extract data from CSV files
+2. Transform data (clean missing values)
+3. Load cleaned data into new dataset
+
+### ▶️ How to Run
+```bash
+python pipeline.py
